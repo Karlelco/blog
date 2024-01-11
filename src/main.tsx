@@ -8,6 +8,7 @@ import About from './pages/About/About.tsx'
 import Contact from './pages/Contact/Contact.tsx'
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={ <App /> }>

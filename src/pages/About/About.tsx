@@ -4,7 +4,7 @@ import Person from '../../components/person/Person'
 
 function About() {
   return (
-      <section className="hero hero-content">
+      <section className="hero hero-content bg-base-200 ">
           <div className=" flex flex-col lg:flex-row gap-4 ">
               <Person />
               

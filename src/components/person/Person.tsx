@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaLinkedinIn, FaTwitter } from "re
 function Person() {
     return (
         <motion.div
-            initial={{ x: -100}}
+            initial={{ x: -300}}
             animate={ { x: 0 } }
             transition={ { type: "spring", duration: 1.8  } }
             className='lg:w-1/3 text-[16px] items-center justify-center w-full'>

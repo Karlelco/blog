@@ -1,5 +1,8 @@
 import Person from '../../components/person/Person'
+import TrendingBlogs from '../../components/topic/Topics'
 import YourComponent from '../Blogs/Blogs'
+import fetchDataFromGoogleTrends from '../Blogs/Blogs'
+
 
 
 
@@ -38,13 +41,12 @@ function Home() {
                          
                       </div>
                   </div>
-
+                  
                   <div>
-                   
-                  </div>
-                  <div>
+                      <TrendingBlogs />
+                      
                       <YourComponent/>
-                      {/* <App /> */}
+                    
                       <button className='btn'>
                           More .....
                       </button>

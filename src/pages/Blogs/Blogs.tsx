@@ -65,7 +65,7 @@ const YourComponent = () => {
       </Button>
       <Modal
         title="Create New Document"
-        visible={modalVisible}
+        open={modalVisible}
         okText="Create"
         onCancel={handleCancel}
         okType='default'

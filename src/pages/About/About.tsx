@@ -1,6 +1,7 @@
 import {motion } from 'framer-motion'
 
 import Person from '../../components/person/Person'
+import { Link, useNavigate } from 'react-router-dom'
 
 function About() {
   return (
@@ -27,8 +28,8 @@ function About() {
                   <p>
                       Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla.
                   </p>
-                  <button className="btn w-fit">
-                      Get in touch
+                  <button  className="btn w-fit">
+                      <Link to={'/contact'}>Get in touch</Link>
                   </button>
           </motion.feTurbulence>
           </div>
